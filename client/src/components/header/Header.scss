@@ -1,0 +1,24 @@
+@import "~bpk-mixins";
+
+.header {
+  padding: $bpk-spacing-sm $bpk-spacing-sm;
+  background-color: $bpk-color-blue-500;
+}
+
+.header__route {
+  display: flex;
+  align-items: center;
+}
+
+.header__place, .header__details {
+  color: $bpk-color-white;
+}
+
+.header__arrow {
+  fill: $bpk-color-white;
+  margin: $bpk-spacing-xs $bpk-spacing-xs;
+}
+
+.header__options .bpk-autosuggest__container, .header__submit-btn {
+  margin: $bpk-spacing-sm $bpk-spacing-sm;
+}

@@ -1,0 +1,22 @@
+@import "~bpk-mixins";
+
+.topnav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-shrink: 0;
+  padding: $bpk-spacing-sm $bpk-spacing-sm;
+  background-color: $bpk-color-white;
+
+  .topnav__logo-text {
+    @include bpk-visually-hidden;
+  }
+
+  .topnav__icon-logo {
+    vertical-align: middle;
+  }
+
+  .topnav__icon-menu {
+    fill: $bpk-color-blue-500;
+  }
+}

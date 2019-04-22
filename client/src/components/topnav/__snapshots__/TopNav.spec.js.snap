@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TopNav renders 1`] = `
+<header
+  className="topnav"
+>
+  <a
+    href="/"
+  >
+    <span
+      className="topnav__logo-text"
+    >
+      Skyscanner
+    </span>
+    <img
+      alt="Skyscanner"
+      className="topnav__icon-logo"
+      src="test-file-stub"
+    />
+  </a>
+  <BpkButton
+    className="topnav__btn-menu"
+    destructive={false}
+    disabled={false}
+    featured={false}
+    href={null}
+    iconOnly={false}
+    large={false}
+    link={true}
+    onClick={[MockFunction]}
+    secondary={false}
+    submit={false}
+  >
+    <Component
+      className="topnav__icon-menu"
+    />
+  </BpkButton>
+</header>
+`;

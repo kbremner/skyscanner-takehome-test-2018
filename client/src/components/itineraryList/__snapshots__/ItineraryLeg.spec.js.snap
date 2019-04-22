@@ -1,0 +1,391 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ItineraryLeg renders 1`] = `
+<div
+  className=" itinerary-leg"
+>
+  <div>
+    <img
+      alt="easyjet logo"
+      className="itinerary-leg__airline-logo"
+    />
+  </div>
+  <div
+    className="itinerary-leg__segments"
+  >
+    <Segment
+      code="CODE-11"
+      dateTime="11:00"
+      key="CODE-11"
+    />
+    <Component
+      className="itinerary-leg__arrow"
+      key="arrow-0"
+    />
+    <Segment
+      code="CODE-12"
+      dateTime="12:00"
+      key="CODE-12"
+    />
+    <Component
+      className="itinerary-leg__arrow"
+      key="arrow-1"
+    />
+    <Segment
+      code="CODE-13"
+      dateTime="13:00"
+      key="CODE-13"
+    />
+    <Component
+      className="itinerary-leg__arrow"
+      key="arrow-2"
+    />
+    <Segment
+      code="CODE-14"
+      dateTime="14:00"
+      key="CODE-14"
+    />
+    <Component
+      className="itinerary-leg__arrow"
+      key="arrow-3"
+    />
+    <Segment
+      code="CODE-15"
+      dateTime="15:00"
+      key="CODE-15"
+    />
+  </div>
+  <div
+    className="itinerary-leg__summary"
+  >
+    <BpkText
+      bold={false}
+      className="itinerary-leg__duration"
+      tagName="span"
+      textStyle="base"
+    >
+      3h 30
+    </BpkText>
+    <BpkText
+      bold={false}
+      className="itinerary-leg__num-stops"
+      tagName="span"
+      textStyle="base"
+    >
+      Direct
+    </BpkText>
+  </div>
+</div>
+`;
+
+exports[`ItineraryLeg renders just hours when duration has no minutes component 1`] = `
+<div
+  className=" itinerary-leg"
+>
+  <div>
+    <img
+      alt="easyjet logo"
+      className="itinerary-leg__airline-logo"
+    />
+  </div>
+  <div
+    className="itinerary-leg__segments"
+  >
+    <Segment
+      code="CODE-11"
+      dateTime="11:00"
+      key="CODE-11"
+    />
+    <Component
+      className="itinerary-leg__arrow"
+      key="arrow-0"
+    />
+    <Segment
+      code="CODE-12"
+      dateTime="12:00"
+      key="CODE-12"
+    />
+    <Component
+      className="itinerary-leg__arrow"
+      key="arrow-1"
+    />
+    <Segment
+      code="CODE-13"
+      dateTime="13:00"
+      key="CODE-13"
+    />
+    <Component
+      className="itinerary-leg__arrow"
+      key="arrow-2"
+    />
+    <Segment
+      code="CODE-14"
+      dateTime="14:00"
+      key="CODE-14"
+    />
+    <Component
+      className="itinerary-leg__arrow"
+      key="arrow-3"
+    />
+    <Segment
+      code="CODE-15"
+      dateTime="15:00"
+      key="CODE-15"
+    />
+  </div>
+  <div
+    className="itinerary-leg__summary"
+  >
+    <BpkText
+      bold={false}
+      className="itinerary-leg__duration"
+      tagName="span"
+      textStyle="base"
+    >
+      3h
+    </BpkText>
+    <BpkText
+      bold={false}
+      className="itinerary-leg__num-stops"
+      tagName="span"
+      textStyle="base"
+    >
+      Direct
+    </BpkText>
+  </div>
+</div>
+`;
+
+exports[`ItineraryLeg renders just minutes when duration is less than 1h 1`] = `
+<div
+  className=" itinerary-leg"
+>
+  <div>
+    <img
+      alt="easyjet logo"
+      className="itinerary-leg__airline-logo"
+    />
+  </div>
+  <div
+    className="itinerary-leg__segments"
+  >
+    <Segment
+      code="CODE-11"
+      dateTime="11:00"
+      key="CODE-11"
+    />
+    <Component
+      className="itinerary-leg__arrow"
+      key="arrow-0"
+    />
+    <Segment
+      code="CODE-12"
+      dateTime="12:00"
+      key="CODE-12"
+    />
+    <Component
+      className="itinerary-leg__arrow"
+      key="arrow-1"
+    />
+    <Segment
+      code="CODE-13"
+      dateTime="13:00"
+      key="CODE-13"
+    />
+    <Component
+      className="itinerary-leg__arrow"
+      key="arrow-2"
+    />
+    <Segment
+      code="CODE-14"
+      dateTime="14:00"
+      key="CODE-14"
+    />
+    <Component
+      className="itinerary-leg__arrow"
+      key="arrow-3"
+    />
+    <Segment
+      code="CODE-15"
+      dateTime="15:00"
+      key="CODE-15"
+    />
+  </div>
+  <div
+    className="itinerary-leg__summary"
+  >
+    <BpkText
+      bold={false}
+      className="itinerary-leg__duration"
+      tagName="span"
+      textStyle="base"
+    >
+      59m
+    </BpkText>
+    <BpkText
+      bold={false}
+      className="itinerary-leg__num-stops"
+      tagName="span"
+      textStyle="base"
+    >
+      Direct
+    </BpkText>
+  </div>
+</div>
+`;
+
+exports[`ItineraryLeg renders stops correctly when just 1 1`] = `
+<div
+  className=" itinerary-leg"
+>
+  <div>
+    <img
+      alt="easyjet logo"
+      className="itinerary-leg__airline-logo"
+    />
+  </div>
+  <div
+    className="itinerary-leg__segments"
+  >
+    <Segment
+      code="CODE-11"
+      dateTime="11:00"
+      key="CODE-11"
+    />
+    <Component
+      className="itinerary-leg__arrow"
+      key="arrow-0"
+    />
+    <Segment
+      code="CODE-12"
+      dateTime="12:00"
+      key="CODE-12"
+    />
+    <Component
+      className="itinerary-leg__arrow"
+      key="arrow-1"
+    />
+    <Segment
+      code="CODE-13"
+      dateTime="13:00"
+      key="CODE-13"
+    />
+    <Component
+      className="itinerary-leg__arrow"
+      key="arrow-2"
+    />
+    <Segment
+      code="CODE-14"
+      dateTime="14:00"
+      key="CODE-14"
+    />
+    <Component
+      className="itinerary-leg__arrow"
+      key="arrow-3"
+    />
+    <Segment
+      code="CODE-15"
+      dateTime="15:00"
+      key="CODE-15"
+    />
+  </div>
+  <div
+    className="itinerary-leg__summary"
+  >
+    <BpkText
+      bold={false}
+      className="itinerary-leg__duration"
+      tagName="span"
+      textStyle="base"
+    >
+      3h 30
+    </BpkText>
+    <BpkText
+      bold={false}
+      className="itinerary-leg__num-stops"
+      tagName="span"
+      textStyle="base"
+    >
+      1 Stop
+    </BpkText>
+  </div>
+</div>
+`;
+
+exports[`ItineraryLeg renders stops correctly when more than 1 1`] = `
+<div
+  className=" itinerary-leg"
+>
+  <div>
+    <img
+      alt="easyjet logo"
+      className="itinerary-leg__airline-logo"
+    />
+  </div>
+  <div
+    className="itinerary-leg__segments"
+  >
+    <Segment
+      code="CODE-11"
+      dateTime="11:00"
+      key="CODE-11"
+    />
+    <Component
+      className="itinerary-leg__arrow"
+      key="arrow-0"
+    />
+    <Segment
+      code="CODE-12"
+      dateTime="12:00"
+      key="CODE-12"
+    />
+    <Component
+      className="itinerary-leg__arrow"
+      key="arrow-1"
+    />
+    <Segment
+      code="CODE-13"
+      dateTime="13:00"
+      key="CODE-13"
+    />
+    <Component
+      className="itinerary-leg__arrow"
+      key="arrow-2"
+    />
+    <Segment
+      code="CODE-14"
+      dateTime="14:00"
+      key="CODE-14"
+    />
+    <Component
+      className="itinerary-leg__arrow"
+      key="arrow-3"
+    />
+    <Segment
+      code="CODE-15"
+      dateTime="15:00"
+      key="CODE-15"
+    />
+  </div>
+  <div
+    className="itinerary-leg__summary"
+  >
+    <BpkText
+      bold={false}
+      className="itinerary-leg__duration"
+      tagName="span"
+      textStyle="base"
+    >
+      3h 30
+    </BpkText>
+    <BpkText
+      bold={false}
+      className="itinerary-leg__num-stops"
+      tagName="span"
+      textStyle="base"
+    >
+      2 Stops
+    </BpkText>
+  </div>
+</div>
+`;

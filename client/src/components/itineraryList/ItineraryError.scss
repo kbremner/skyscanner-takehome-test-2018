@@ -1,0 +1,19 @@
+@import "~bpk-mixins";
+
+.itinerary-error {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  .itinerary-error__text {
+    padding-top: $bpk-spacing-md;
+  }
+  
+  .itinerary-error__retry-btn {
+    margin: $bpk-spacing-md;
+  }
+
+  .itinerary-error__retry-text {
+    padding-right: $bpk-spacing-sm;
+  }
+}

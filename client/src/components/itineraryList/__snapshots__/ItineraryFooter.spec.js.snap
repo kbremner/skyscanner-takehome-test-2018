@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ItineraryFooter renders 1`] = `
+<div
+  className=" itinerary-footer"
+>
+  <div
+    className="itinerary-footer__quote"
+  >
+    <BpkText
+      bold={false}
+      className="itinerary-footer__price"
+      tagName="span"
+      textStyle="xl"
+    >
+      $234.45
+    </BpkText>
+    <BpkText
+      bold={false}
+      className="itinerary-footer__agent"
+      tagName="span"
+      textStyle="base"
+    >
+      test agent
+    </BpkText>
+  </div>
+  <BpkButton
+    className={null}
+    destructive={false}
+    disabled={false}
+    featured={false}
+    href="http://example.com"
+    iconOnly={false}
+    large={false}
+    link={false}
+    onClick={null}
+    secondary={false}
+    submit={false}
+    target="_blank"
+  >
+    Select
+  </BpkButton>
+</div>
+`;

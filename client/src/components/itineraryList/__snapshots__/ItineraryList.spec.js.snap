@@ -1,0 +1,642 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ItineraryList error renders when error prop is true 1`] = `
+<div
+  className="itinerary-list"
+>
+  <ItineraryError
+    className="itinerary-list__error"
+    onRetry={
+      [MockFunction] {
+        "calls": Array [
+          Array [],
+        ],
+      }
+    }
+  />
+</div>
+`;
+
+exports[`ItineraryList itineraries renders empty message when there are no itineraries and not loading 1`] = `
+<div
+  className="itinerary-list"
+>
+  <div>
+    no results!
+  </div>
+</div>
+`;
+
+exports[`ItineraryList itineraries renders when there are itineraries 1`] = `
+<div
+  className="itinerary-list"
+>
+  <ItineraryCard
+    className="itinerary-list__card"
+    itinerary={
+      Object {
+        "agentName": "test agent",
+        "bookingLink": "http://example.com/1",
+        "legs": Array [
+          Object {
+            "carrier": Object {
+              "code": "EZ",
+              "name": "easyjet",
+            },
+            "duration": 210,
+            "id": "1",
+            "numStops": 0,
+            "segments": Array [
+              Object {
+                "destination": Object {
+                  "code": "CODE-1-12",
+                  "dateTime": "12:00",
+                },
+                "origin": Object {
+                  "code": "CODE-1-11",
+                  "dateTime": "11:00",
+                },
+              },
+              Object {
+                "destination": Object {
+                  "code": "CODE-1-13",
+                  "dateTime": "13:00",
+                },
+                "origin": Object {
+                  "code": "CODE-1-12",
+                  "dateTime": "12:00",
+                },
+              },
+              Object {
+                "destination": Object {
+                  "code": "CODE-1-14",
+                  "dateTime": "14:00",
+                },
+                "origin": Object {
+                  "code": "CODE-1-13",
+                  "dateTime": "13:00",
+                },
+              },
+              Object {
+                "destination": Object {
+                  "code": "CODE-1-15",
+                  "dateTime": "15:00",
+                },
+                "origin": Object {
+                  "code": "CODE-1-14",
+                  "dateTime": "14:00",
+                },
+              },
+            ],
+          },
+        ],
+        "price": "$123.45",
+      }
+    }
+    key="http://example.com/1"
+  />
+  <ItineraryCard
+    className="itinerary-list__card"
+    itinerary={
+      Object {
+        "agentName": "test agent",
+        "bookingLink": "http://example.com/2",
+        "legs": Array [
+          Object {
+            "carrier": Object {
+              "code": "EZ",
+              "name": "easyjet",
+            },
+            "duration": 210,
+            "id": "1",
+            "numStops": 0,
+            "segments": Array [
+              Object {
+                "destination": Object {
+                  "code": "CODE-2-12",
+                  "dateTime": "12:00",
+                },
+                "origin": Object {
+                  "code": "CODE-2-11",
+                  "dateTime": "11:00",
+                },
+              },
+              Object {
+                "destination": Object {
+                  "code": "CODE-2-13",
+                  "dateTime": "13:00",
+                },
+                "origin": Object {
+                  "code": "CODE-2-12",
+                  "dateTime": "12:00",
+                },
+              },
+              Object {
+                "destination": Object {
+                  "code": "CODE-2-14",
+                  "dateTime": "14:00",
+                },
+                "origin": Object {
+                  "code": "CODE-2-13",
+                  "dateTime": "13:00",
+                },
+              },
+              Object {
+                "destination": Object {
+                  "code": "CODE-2-15",
+                  "dateTime": "15:00",
+                },
+                "origin": Object {
+                  "code": "CODE-2-14",
+                  "dateTime": "14:00",
+                },
+              },
+            ],
+          },
+        ],
+        "price": "$123.45",
+      }
+    }
+    key="http://example.com/2"
+  />
+  <ItineraryCard
+    className="itinerary-list__card"
+    itinerary={
+      Object {
+        "agentName": "test agent",
+        "bookingLink": "http://example.com/3",
+        "legs": Array [
+          Object {
+            "carrier": Object {
+              "code": "EZ",
+              "name": "easyjet",
+            },
+            "duration": 210,
+            "id": "1",
+            "numStops": 0,
+            "segments": Array [
+              Object {
+                "destination": Object {
+                  "code": "CODE-3-12",
+                  "dateTime": "12:00",
+                },
+                "origin": Object {
+                  "code": "CODE-3-11",
+                  "dateTime": "11:00",
+                },
+              },
+              Object {
+                "destination": Object {
+                  "code": "CODE-3-13",
+                  "dateTime": "13:00",
+                },
+                "origin": Object {
+                  "code": "CODE-3-12",
+                  "dateTime": "12:00",
+                },
+              },
+              Object {
+                "destination": Object {
+                  "code": "CODE-3-14",
+                  "dateTime": "14:00",
+                },
+                "origin": Object {
+                  "code": "CODE-3-13",
+                  "dateTime": "13:00",
+                },
+              },
+              Object {
+                "destination": Object {
+                  "code": "CODE-3-15",
+                  "dateTime": "15:00",
+                },
+                "origin": Object {
+                  "code": "CODE-3-14",
+                  "dateTime": "14:00",
+                },
+              },
+            ],
+          },
+        ],
+        "price": "$123.45",
+      }
+    }
+    key="http://example.com/3"
+  />
+  <Waypoint
+    bottomOffset={-10}
+    fireOnRapidScroll={true}
+    horizontal={false}
+    onEnter={[MockFunction]}
+    onLeave={[Function]}
+    onPositionChange={[Function]}
+    topOffset="0px"
+  />
+</div>
+`;
+
+exports[`ItineraryList itineraries renders when there are itineraries and is loading 1`] = `
+<div
+  className="itinerary-list"
+>
+  <ItineraryCard
+    className="itinerary-list__card"
+    itinerary={
+      Object {
+        "agentName": "test agent",
+        "bookingLink": "http://example.com/1",
+        "legs": Array [
+          Object {
+            "carrier": Object {
+              "code": "EZ",
+              "name": "easyjet",
+            },
+            "duration": 210,
+            "id": "1",
+            "numStops": 0,
+            "segments": Array [
+              Object {
+                "destination": Object {
+                  "code": "CODE-1-12",
+                  "dateTime": "12:00",
+                },
+                "origin": Object {
+                  "code": "CODE-1-11",
+                  "dateTime": "11:00",
+                },
+              },
+              Object {
+                "destination": Object {
+                  "code": "CODE-1-13",
+                  "dateTime": "13:00",
+                },
+                "origin": Object {
+                  "code": "CODE-1-12",
+                  "dateTime": "12:00",
+                },
+              },
+              Object {
+                "destination": Object {
+                  "code": "CODE-1-14",
+                  "dateTime": "14:00",
+                },
+                "origin": Object {
+                  "code": "CODE-1-13",
+                  "dateTime": "13:00",
+                },
+              },
+              Object {
+                "destination": Object {
+                  "code": "CODE-1-15",
+                  "dateTime": "15:00",
+                },
+                "origin": Object {
+                  "code": "CODE-1-14",
+                  "dateTime": "14:00",
+                },
+              },
+            ],
+          },
+        ],
+        "price": "$123.45",
+      }
+    }
+    key="http://example.com/1"
+  />
+  <ItineraryCard
+    className="itinerary-list__card"
+    itinerary={
+      Object {
+        "agentName": "test agent",
+        "bookingLink": "http://example.com/2",
+        "legs": Array [
+          Object {
+            "carrier": Object {
+              "code": "EZ",
+              "name": "easyjet",
+            },
+            "duration": 210,
+            "id": "1",
+            "numStops": 0,
+            "segments": Array [
+              Object {
+                "destination": Object {
+                  "code": "CODE-2-12",
+                  "dateTime": "12:00",
+                },
+                "origin": Object {
+                  "code": "CODE-2-11",
+                  "dateTime": "11:00",
+                },
+              },
+              Object {
+                "destination": Object {
+                  "code": "CODE-2-13",
+                  "dateTime": "13:00",
+                },
+                "origin": Object {
+                  "code": "CODE-2-12",
+                  "dateTime": "12:00",
+                },
+              },
+              Object {
+                "destination": Object {
+                  "code": "CODE-2-14",
+                  "dateTime": "14:00",
+                },
+                "origin": Object {
+                  "code": "CODE-2-13",
+                  "dateTime": "13:00",
+                },
+              },
+              Object {
+                "destination": Object {
+                  "code": "CODE-2-15",
+                  "dateTime": "15:00",
+                },
+                "origin": Object {
+                  "code": "CODE-2-14",
+                  "dateTime": "14:00",
+                },
+              },
+            ],
+          },
+        ],
+        "price": "$123.45",
+      }
+    }
+    key="http://example.com/2"
+  />
+  <ItineraryCard
+    className="itinerary-list__card"
+    itinerary={
+      Object {
+        "agentName": "test agent",
+        "bookingLink": "http://example.com/3",
+        "legs": Array [
+          Object {
+            "carrier": Object {
+              "code": "EZ",
+              "name": "easyjet",
+            },
+            "duration": 210,
+            "id": "1",
+            "numStops": 0,
+            "segments": Array [
+              Object {
+                "destination": Object {
+                  "code": "CODE-3-12",
+                  "dateTime": "12:00",
+                },
+                "origin": Object {
+                  "code": "CODE-3-11",
+                  "dateTime": "11:00",
+                },
+              },
+              Object {
+                "destination": Object {
+                  "code": "CODE-3-13",
+                  "dateTime": "13:00",
+                },
+                "origin": Object {
+                  "code": "CODE-3-12",
+                  "dateTime": "12:00",
+                },
+              },
+              Object {
+                "destination": Object {
+                  "code": "CODE-3-14",
+                  "dateTime": "14:00",
+                },
+                "origin": Object {
+                  "code": "CODE-3-13",
+                  "dateTime": "13:00",
+                },
+              },
+              Object {
+                "destination": Object {
+                  "code": "CODE-3-15",
+                  "dateTime": "15:00",
+                },
+                "origin": Object {
+                  "code": "CODE-3-14",
+                  "dateTime": "14:00",
+                },
+              },
+            ],
+          },
+        ],
+        "price": "$123.45",
+      }
+    }
+    key="http://example.com/3"
+  />
+  <BpkExtraLargeSpinner
+    className="itinerary-list__spinner"
+    type="primary"
+  />
+</div>
+`;
+
+exports[`ItineraryList spinner renders when fetching results 1`] = `
+<div
+  className="itinerary-list"
+>
+  <ItineraryCard
+    className="itinerary-list__card"
+    itinerary={
+      Object {
+        "agentName": "test agent",
+        "bookingLink": "http://example.com/1",
+        "legs": Array [
+          Object {
+            "carrier": Object {
+              "code": "EZ",
+              "name": "easyjet",
+            },
+            "duration": 210,
+            "id": "1",
+            "numStops": 0,
+            "segments": Array [
+              Object {
+                "destination": Object {
+                  "code": "CODE-1-12",
+                  "dateTime": "12:00",
+                },
+                "origin": Object {
+                  "code": "CODE-1-11",
+                  "dateTime": "11:00",
+                },
+              },
+              Object {
+                "destination": Object {
+                  "code": "CODE-1-13",
+                  "dateTime": "13:00",
+                },
+                "origin": Object {
+                  "code": "CODE-1-12",
+                  "dateTime": "12:00",
+                },
+              },
+              Object {
+                "destination": Object {
+                  "code": "CODE-1-14",
+                  "dateTime": "14:00",
+                },
+                "origin": Object {
+                  "code": "CODE-1-13",
+                  "dateTime": "13:00",
+                },
+              },
+              Object {
+                "destination": Object {
+                  "code": "CODE-1-15",
+                  "dateTime": "15:00",
+                },
+                "origin": Object {
+                  "code": "CODE-1-14",
+                  "dateTime": "14:00",
+                },
+              },
+            ],
+          },
+        ],
+        "price": "$123.45",
+      }
+    }
+    key="http://example.com/1"
+  />
+  <ItineraryCard
+    className="itinerary-list__card"
+    itinerary={
+      Object {
+        "agentName": "test agent",
+        "bookingLink": "http://example.com/2",
+        "legs": Array [
+          Object {
+            "carrier": Object {
+              "code": "EZ",
+              "name": "easyjet",
+            },
+            "duration": 210,
+            "id": "1",
+            "numStops": 0,
+            "segments": Array [
+              Object {
+                "destination": Object {
+                  "code": "CODE-2-12",
+                  "dateTime": "12:00",
+                },
+                "origin": Object {
+                  "code": "CODE-2-11",
+                  "dateTime": "11:00",
+                },
+              },
+              Object {
+                "destination": Object {
+                  "code": "CODE-2-13",
+                  "dateTime": "13:00",
+                },
+                "origin": Object {
+                  "code": "CODE-2-12",
+                  "dateTime": "12:00",
+                },
+              },
+              Object {
+                "destination": Object {
+                  "code": "CODE-2-14",
+                  "dateTime": "14:00",
+                },
+                "origin": Object {
+                  "code": "CODE-2-13",
+                  "dateTime": "13:00",
+                },
+              },
+              Object {
+                "destination": Object {
+                  "code": "CODE-2-15",
+                  "dateTime": "15:00",
+                },
+                "origin": Object {
+                  "code": "CODE-2-14",
+                  "dateTime": "14:00",
+                },
+              },
+            ],
+          },
+        ],
+        "price": "$123.45",
+      }
+    }
+    key="http://example.com/2"
+  />
+  <ItineraryCard
+    className="itinerary-list__card"
+    itinerary={
+      Object {
+        "agentName": "test agent",
+        "bookingLink": "http://example.com/3",
+        "legs": Array [
+          Object {
+            "carrier": Object {
+              "code": "EZ",
+              "name": "easyjet",
+            },
+            "duration": 210,
+            "id": "1",
+            "numStops": 0,
+            "segments": Array [
+              Object {
+                "destination": Object {
+                  "code": "CODE-3-12",
+                  "dateTime": "12:00",
+                },
+                "origin": Object {
+                  "code": "CODE-3-11",
+                  "dateTime": "11:00",
+                },
+              },
+              Object {
+                "destination": Object {
+                  "code": "CODE-3-13",
+                  "dateTime": "13:00",
+                },
+                "origin": Object {
+                  "code": "CODE-3-12",
+                  "dateTime": "12:00",
+                },
+              },
+              Object {
+                "destination": Object {
+                  "code": "CODE-3-14",
+                  "dateTime": "14:00",
+                },
+                "origin": Object {
+                  "code": "CODE-3-13",
+                  "dateTime": "13:00",
+                },
+              },
+              Object {
+                "destination": Object {
+                  "code": "CODE-3-15",
+                  "dateTime": "15:00",
+                },
+                "origin": Object {
+                  "code": "CODE-3-14",
+                  "dateTime": "14:00",
+                },
+              },
+            ],
+          },
+        ],
+        "price": "$123.45",
+      }
+    }
+    key="http://example.com/3"
+  />
+  <BpkExtraLargeSpinner
+    className="itinerary-list__spinner"
+    type="primary"
+  />
+</div>
+`;

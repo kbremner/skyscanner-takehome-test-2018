@@ -1,0 +1,63 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SearchControls renders 1`] = `
+<div
+  className="search-controls"
+>
+  <BpkButton
+    className="search-controls__filter"
+    destructive={false}
+    disabled={false}
+    featured={false}
+    href={null}
+    iconOnly={false}
+    large={false}
+    link={true}
+    onClick={[MockFunction]}
+    secondary={false}
+    submit={false}
+  >
+    Filter
+  </BpkButton>
+  <BpkButton
+    className="search-controls__sort"
+    destructive={false}
+    disabled={false}
+    featured={false}
+    href={null}
+    iconOnly={false}
+    large={false}
+    link={true}
+    onClick={[MockFunction]}
+    secondary={false}
+    submit={false}
+  >
+    Sort
+  </BpkButton>
+  <BpkButton
+    className="search-controls__alerts"
+    destructive={false}
+    disabled={false}
+    featured={false}
+    href={null}
+    iconOnly={false}
+    large={false}
+    link={true}
+    onClick={[MockFunction]}
+    secondary={false}
+    submit={false}
+  >
+    <Component
+      className="search-controls__alerts-icon"
+    />
+    <BpkText
+      bold={false}
+      className={null}
+      tagName="span"
+      textStyle="base"
+    >
+      Price alerts
+    </BpkText>
+  </BpkButton>
+</div>
+`;

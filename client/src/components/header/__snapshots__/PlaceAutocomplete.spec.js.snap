@@ -1,0 +1,137 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PlaceAutocomplete renders 1`] = `
+<Autosuggest
+  alwaysRenderSuggestions={false}
+  focusInputOnSuggestionClick={true}
+  getSuggestionValue={[Function]}
+  highlightFirstSuggestion={false}
+  id="1"
+  inputProps={
+    Object {
+      "id": "place-search-test-place-autocomplete",
+      "name": "test-place-autocomplete",
+      "onChange": [Function],
+      "placeholder": "Enter a place",
+      "value": undefined,
+    }
+  }
+  multiSection={false}
+  onSuggestionSelected={[Function]}
+  onSuggestionsClearRequested={[Function]}
+  onSuggestionsFetchRequested={[Function]}
+  renderInputComponent={[Function]}
+  renderSuggestion={[Function]}
+  renderSuggestionsContainer={[Function]}
+  shouldRenderSuggestions={[Function]}
+  suggestions={Array []}
+  theme={
+    Object {
+      "container": "bpk-autosuggest__container",
+      "containerOpen": "bpk-autosuggest__container--open",
+      "sectionContainer": "bpk-autosuggest__section-container",
+      "sectionTitle": "bpk-autosuggest__section-title",
+      "suggestion": "bpk-autosuggest__suggestion-item",
+      "suggestionHighlighted": "bpk-autosuggest__suggestion-item--highlighted",
+      "suggestionsContainer": "bpk-autosuggest__suggestions-container",
+      "suggestionsContainerOpen": "bpk-autosuggest__suggestions-container--open",
+      "suggestionsList": "bpk-autosuggest__suggestions-list",
+    }
+  }
+/>
+`;
+
+exports[`PlaceAutocomplete renders with default value 1`] = `
+<Autosuggest
+  alwaysRenderSuggestions={false}
+  focusInputOnSuggestionClick={true}
+  getSuggestionValue={[Function]}
+  highlightFirstSuggestion={false}
+  id="1"
+  inputProps={
+    Object {
+      "id": "place-search-test-place-autocomplete",
+      "name": "test-place-autocomplete",
+      "onChange": [Function],
+      "placeholder": "Enter a place",
+      "value": "test-default",
+    }
+  }
+  multiSection={false}
+  onSuggestionSelected={[Function]}
+  onSuggestionsClearRequested={[Function]}
+  onSuggestionsFetchRequested={[Function]}
+  renderInputComponent={[Function]}
+  renderSuggestion={[Function]}
+  renderSuggestionsContainer={[Function]}
+  shouldRenderSuggestions={[Function]}
+  suggestions={Array []}
+  theme={
+    Object {
+      "container": "bpk-autosuggest__container",
+      "containerOpen": "bpk-autosuggest__container--open",
+      "sectionContainer": "bpk-autosuggest__section-container",
+      "sectionTitle": "bpk-autosuggest__section-title",
+      "suggestion": "bpk-autosuggest__suggestion-item",
+      "suggestionHighlighted": "bpk-autosuggest__suggestion-item--highlighted",
+      "suggestionsContainer": "bpk-autosuggest__suggestions-container",
+      "suggestionsContainerOpen": "bpk-autosuggest__suggestions-container--open",
+      "suggestionsList": "bpk-autosuggest__suggestions-list",
+    }
+  }
+/>
+`;
+
+exports[`PlaceAutocomplete renders with results 1`] = `
+<Autosuggest
+  alwaysRenderSuggestions={false}
+  focusInputOnSuggestionClick={true}
+  getSuggestionValue={[Function]}
+  highlightFirstSuggestion={false}
+  id="1"
+  inputProps={
+    Object {
+      "id": "place-search-test-place-autocomplete",
+      "name": "test-place-autocomplete",
+      "onChange": [Function],
+      "placeholder": "Enter a place",
+      "value": undefined,
+    }
+  }
+  multiSection={false}
+  onSuggestionSelected={[Function]}
+  onSuggestionsClearRequested={[Function]}
+  onSuggestionsFetchRequested={[Function]}
+  renderInputComponent={[Function]}
+  renderSuggestion={[Function]}
+  renderSuggestionsContainer={[Function]}
+  shouldRenderSuggestions={[Function]}
+  suggestions={
+    Array [
+      Object {
+        "CountryName": "test-country-name-0",
+        "PlaceId": "test-place-id-0",
+        "PlaceName": "test-place-name-0",
+      },
+      Object {
+        "CountryName": "test-country-name-1",
+        "PlaceId": "test-place-id-1",
+        "PlaceName": "test-place-name-1",
+      },
+    ]
+  }
+  theme={
+    Object {
+      "container": "bpk-autosuggest__container",
+      "containerOpen": "bpk-autosuggest__container--open",
+      "sectionContainer": "bpk-autosuggest__section-container",
+      "sectionTitle": "bpk-autosuggest__section-title",
+      "suggestion": "bpk-autosuggest__suggestion-item",
+      "suggestionHighlighted": "bpk-autosuggest__suggestion-item--highlighted",
+      "suggestionsContainer": "bpk-autosuggest__suggestions-container",
+      "suggestionsContainerOpen": "bpk-autosuggest__suggestions-container--open",
+      "suggestionsList": "bpk-autosuggest__suggestions-list",
+    }
+  }
+/>
+`;

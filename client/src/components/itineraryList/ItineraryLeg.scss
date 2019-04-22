@@ -1,0 +1,47 @@
+@import "~bpk-mixins";
+
+.itinerary-leg {
+  padding-bottom: $bpk-spacing-md;
+
+  .itinerary-leg__airline-logo {
+    border-radius: $bpk-border-radius-sm;
+    height: 30px;
+  }
+
+  &, .itinerary-leg__segments {
+    display: flex;
+    align-items: center;
+  }
+
+  .itinerary-leg__segments {
+    flex-grow: 1;
+    flex-wrap: wrap;
+  }
+
+  .itinerary-leg__segment, .itinerary-leg__summary {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .itinerary-leg__summary {
+    align-items: flex-end;
+    flex-shrink: 0;
+  }
+
+  .itinerary-leg__segment {
+    align-items: flex-start;
+    padding: 0 $bpk-spacing-sm;
+  }
+
+  .itinerary-leg__location, .itinerary-leg__duration {
+    color: $bpk-color-gray-300;
+  }
+  
+  .itinerary-leg__arrow {
+    fill: $bpk-color-gray-300;
+  }
+
+  .itinerary-leg__num-stops {
+    color: $bpk-color-green-500;
+  }
+}

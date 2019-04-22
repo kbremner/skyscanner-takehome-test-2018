@@ -1,0 +1,25 @@
+@import "~bpk-mixins";
+
+.itinerary-footer {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+
+  .itinerary-footer__quote {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+  }
+  
+  .itinerary-footer__agent {
+    color: $bpk-color-gray-300;
+  }
+
+  .itinerary-footer__agent {
+    line-height: $bpk-line-height-sm;
+  }
+
+  .itinerary-footer__price {
+    line-height: $bpk-line-height-base;
+  }
+}

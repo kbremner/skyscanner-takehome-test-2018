@@ -1,0 +1,72 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ItineraryCard renders 1`] = `
+<BpkPanel
+  className=" itinerary-card"
+  fullWidth={false}
+  padded={true}
+>
+  <ItineraryLeg
+    carrier={
+      Object {
+        "code": "EZ",
+        "name": "easyjet",
+      }
+    }
+    className="itinerary-card__leg"
+    duration={210}
+    key="1"
+    numStops={0}
+    segments={
+      Array [
+        Object {
+          "destination": Object {
+            "code": "CODE-1-12",
+            "dateTime": "12:00",
+          },
+          "origin": Object {
+            "code": "CODE-1-11",
+            "dateTime": "11:00",
+          },
+        },
+        Object {
+          "destination": Object {
+            "code": "CODE-1-13",
+            "dateTime": "13:00",
+          },
+          "origin": Object {
+            "code": "CODE-1-12",
+            "dateTime": "12:00",
+          },
+        },
+        Object {
+          "destination": Object {
+            "code": "CODE-1-14",
+            "dateTime": "14:00",
+          },
+          "origin": Object {
+            "code": "CODE-1-13",
+            "dateTime": "13:00",
+          },
+        },
+        Object {
+          "destination": Object {
+            "code": "CODE-1-15",
+            "dateTime": "15:00",
+          },
+          "origin": Object {
+            "code": "CODE-1-14",
+            "dateTime": "14:00",
+          },
+        },
+      ]
+    }
+  />
+  <ItineraryFooter
+    agentName="test agent"
+    bookingLink="http://example.com/1"
+    className="itinerary-card__footer"
+    price="$123.45"
+  />
+</BpkPanel>
+`;

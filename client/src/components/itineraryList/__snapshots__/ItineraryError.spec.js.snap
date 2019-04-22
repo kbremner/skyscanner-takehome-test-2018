@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ItineraryError renders 1`] = `
+<div
+  className=" itinerary-error"
+>
+  <BpkText
+    bold={false}
+    className="itinerary-error__text"
+    tagName="span"
+    textStyle="xl"
+  >
+    Something's gone wrong!
+  </BpkText>
+  <BpkButton
+    className="itinerary-error__retry-btn"
+    destructive={false}
+    disabled={false}
+    featured={false}
+    href={null}
+    iconOnly={false}
+    large={true}
+    link={false}
+    onClick={[MockFunction]}
+    secondary={true}
+    submit={false}
+  >
+    <span
+      className="itinerary-error__retry-text"
+    >
+      Retry
+    </span>
+    <withAlignment(withRtlSupport(Component)) />
+  </BpkButton>
+</div>
+`;

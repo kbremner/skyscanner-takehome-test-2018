@@ -1,0 +1,241 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header renders editable view when non-editable view is clicked 1`] = `
+<div
+  className="header"
+>
+  <div
+    className="header__options"
+  >
+    <PlaceAutocomplete
+      defaultValue="test-origin"
+      name="fromPlace"
+      onClearPlaces={[MockFunction]}
+      onPlaceSelected={[Function]}
+      onSearchForPlaces={[MockFunction]}
+      places={Array []}
+    />
+    <PlaceAutocomplete
+      defaultValue="test-destination"
+      name="toPlace"
+      onClearPlaces={[MockFunction]}
+      onPlaceSelected={[Function]}
+      onSearchForPlaces={[MockFunction]}
+      places={Array []}
+    />
+    <BpkButton
+      className="header__submit-btn"
+      destructive={false}
+      disabled={false}
+      featured={false}
+      href={null}
+      iconOnly={false}
+      large={false}
+      link={false}
+      onClick={[Function]}
+      secondary={false}
+      submit={false}
+    >
+      Go!
+    </BpkButton>
+    <BpkButton
+      className="header__close-btn"
+      destructive={false}
+      disabled={false}
+      featured={false}
+      href={null}
+      iconOnly={false}
+      large={false}
+      link={false}
+      onClick={[Function]}
+      secondary={true}
+      submit={false}
+    >
+      Close
+    </BpkButton>
+  </div>
+</div>
+`;
+
+exports[`Header renders editable view when press enter on non-editable view 1`] = `
+<div
+  className="header"
+>
+  <div
+    className="header__options"
+  >
+    <PlaceAutocomplete
+      defaultValue="test-origin"
+      name="fromPlace"
+      onClearPlaces={[MockFunction]}
+      onPlaceSelected={[Function]}
+      onSearchForPlaces={[MockFunction]}
+      places={Array []}
+    />
+    <PlaceAutocomplete
+      defaultValue="test-destination"
+      name="toPlace"
+      onClearPlaces={[MockFunction]}
+      onPlaceSelected={[Function]}
+      onSearchForPlaces={[MockFunction]}
+      places={Array []}
+    />
+    <BpkButton
+      className="header__submit-btn"
+      destructive={false}
+      disabled={false}
+      featured={false}
+      href={null}
+      iconOnly={false}
+      large={false}
+      link={false}
+      onClick={[Function]}
+      secondary={false}
+      submit={false}
+    >
+      Go!
+    </BpkButton>
+    <BpkButton
+      className="header__close-btn"
+      destructive={false}
+      disabled={false}
+      featured={false}
+      href={null}
+      iconOnly={false}
+      large={false}
+      link={false}
+      onClick={[Function]}
+      secondary={true}
+      submit={false}
+    >
+      Close
+    </BpkButton>
+  </div>
+</div>
+`;
+
+exports[`Header renders non-editable view 1`] = `
+<div
+  className="header"
+>
+  <div
+    aria-label="edit search options"
+    onClick={[Function]}
+    onKeyPress={[Function]}
+    role="button"
+    tabIndex={0}
+  >
+    <div
+      className="header__route"
+    >
+      <withDefaultProps(BpkText)
+        className="header__place"
+      >
+        test-origin
+      </withDefaultProps(BpkText)>
+      <Component
+        className="header__arrow"
+      />
+      <withDefaultProps(BpkText)
+        className="header__place"
+      >
+        test-destination
+      </withDefaultProps(BpkText)>
+    </div>
+    <BpkText
+      bold={false}
+      className="header__details"
+      tagName="span"
+      textStyle="base"
+    >
+      4
+       travellers, 
+      first
+    </BpkText>
+  </div>
+</div>
+`;
+
+exports[`Header renders non-editable view when close button is clicked 1`] = `
+<div
+  className="header"
+>
+  <div
+    aria-label="edit search options"
+    onClick={[Function]}
+    onKeyPress={[Function]}
+    role="button"
+    tabIndex={0}
+  >
+    <div
+      className="header__route"
+    >
+      <withDefaultProps(BpkText)
+        className="header__place"
+      >
+        test-origin
+      </withDefaultProps(BpkText)>
+      <Component
+        className="header__arrow"
+      />
+      <withDefaultProps(BpkText)
+        className="header__place"
+      >
+        test-destination
+      </withDefaultProps(BpkText)>
+    </div>
+    <BpkText
+      bold={false}
+      className="header__details"
+      tagName="span"
+      textStyle="base"
+    >
+      4
+       travellers, 
+      first
+    </BpkText>
+  </div>
+</div>
+`;
+
+exports[`Header renders non-editable view when go button is clicked 1`] = `
+<div
+  className="header"
+>
+  <div
+    aria-label="edit search options"
+    onClick={[Function]}
+    onKeyPress={[Function]}
+    role="button"
+    tabIndex={0}
+  >
+    <div
+      className="header__route"
+    >
+      <withDefaultProps(BpkText)
+        className="header__place"
+      >
+        test-origin
+      </withDefaultProps(BpkText)>
+      <Component
+        className="header__arrow"
+      />
+      <withDefaultProps(BpkText)
+        className="header__place"
+      >
+        test-destination
+      </withDefaultProps(BpkText)>
+    </div>
+    <BpkText
+      bold={false}
+      className="header__details"
+      tagName="span"
+      textStyle="base"
+    >
+      4
+       travellers, 
+      first
+    </BpkText>
+  </div>
+</div>
+`;
